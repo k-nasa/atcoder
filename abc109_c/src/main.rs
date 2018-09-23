@@ -1,4 +1,3 @@
-use std::cmp::*;
 use std::io::*;
 use std::str::FromStr;
 use std::vec::*;
@@ -17,7 +16,7 @@ fn main() {
     let mut ans = abs_vec[0];
 
     for i in abs_vec {
-        ans = gcd(max(ans, i), min(ans, i));
+        ans = gcd(ans, i);
     }
 
     println!("{}", ans);
