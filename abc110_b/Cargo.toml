@@ -1,0 +1,6 @@
+[package]
+name = "abc110_b"
+version = "0.1.0"
+authors = ["k-nasa <htilcs1115@gmail.com>"]
+
+[dependencies]
